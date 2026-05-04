@@ -1,0 +1,6 @@
+@TinyTwin.Backend_HostAddress = http://localhost:5089
+
+GET {{TinyTwin.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
