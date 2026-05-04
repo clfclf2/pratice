@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\tni\\TinyTwin.Backend\\TinyTwin.Backend.csproj": {}
+    "C:\\workspace\\tni\\pratice\\Study\\TinyTwin.Backend.csproj": {}
   },
   "projects": {
-    "E:\\tni\\TinyTwin.Backend\\TinyTwin.Backend.csproj": {
+    "C:\\workspace\\tni\\pratice\\Study\\TinyTwin.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tni\\TinyTwin.Backend\\TinyTwin.Backend.csproj",
+        "projectUniqueName": "C:\\workspace\\tni\\pratice\\Study\\TinyTwin.Backend.csproj",
         "projectName": "TinyTwin.Backend",
-        "projectPath": "E:\\tni\\TinyTwin.Backend\\TinyTwin.Backend.csproj",
-        "packagesPath": "C:\\Users\\1chul\\.nuget\\packages\\",
-        "outputPath": "E:\\tni\\TinyTwin.Backend\\obj\\",
+        "projectPath": "C:\\workspace\\tni\\pratice\\Study\\TinyTwin.Backend.csproj",
+        "packagesPath": "C:\\Users\\jwc67\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\tni\\pratice\\Study\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\1chul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jwc67\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
@@ -74,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
